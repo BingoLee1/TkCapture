@@ -58,7 +58,7 @@ class Style:
     ]
     tool_window_size = {            # 工具栏的宽高
         "pic": (640, 70),
-        "gif": (390, 40)
+        "gif": (370, 40)
     }
     text_pt_values = ('10pt', '14pt', '18pt', '24pt', '36pt', '48pt', '60pt', '72pt', '96pt')
     mark_pi_values = ('1pi', '2pi', '4pi', '6pi', '8pi', '10pi', '12pi', '14pi')
@@ -598,13 +598,13 @@ class ScreenShot(object):
         def modify_state():
             while 1:
                 if self.gif_record.is_recording:
-                    save_btn.configure(text='SAVE')   # ⬇
+                    save_btn.configure(text='SAVE', font=(Style.font, 9))
                 if self.gif_record.is_asking:
                     exit_btn.configure(state='disabled')
-                    save_btn.configure(text='Archiving', state='disabled')
+                    save_btn.configure(text='Saving', font=(Style.font, 9), state='disabled')
                 elif self.gif_record.is_saving:
                     exit_btn.configure(state='disabled')
-                    save_btn.configure(font=(Style.font, 9), text=f'Archiving\n{self.gif_record.progress}%',
+                    save_btn.configure(text=f'{self.gif_record.progress}%', font=(Style.font, 9),
                                        state='disabled')
                 else:
                     exit_btn.configure(state='normal')
