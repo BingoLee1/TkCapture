@@ -5,5 +5,10 @@ and provides an intuitive and user-friendly interface.
 
 ## Add Keyboard Shortcuts
 
+| OS | Steps |
+|--|--|
+|Linux| **Settings**<br>**Keyboard Shortcuts**<br>**Add**<br>**Name: TkCapture** |
+| Windows||
+
 
 
