@@ -7,7 +7,7 @@ and provides an intuitive and user-friendly interface.
 
 | OS | Steps |
 |--|--|
-|Linux| 1. Settings<br>2. Keyboard Shortcuts<br>3. Add<br>    Name: TkCapture<br>    Command: `python3 <PATH TO>/tk_capture.py`<br>    Shortcut: Ctrl+Shift+A |
-| Windows| 1. Right click on tk_capture.py<br>2. Send to<br>3. Desktop Shortcut<br>4. right click on shortcut of tk_capture.py<br>5. Attributes<br>    Shortcut: Ctrl+Shift+A |
+|Linux| 1. Settings<br>2. Keyboard Shortcuts<br>3. Add<br>: Name: TkCapture<br>: Command: `python3 <PATH TO>/tk_capture.py`<br>: Shortcut: Ctrl+Shift+A |
+| Windows| 1. Right click on tk_capture.py<br>2. Send to Desktop Shortcut<br>3. right click on desktop shortcut of tk_capture.py<br>4. Attributes<br>: Shortcut: Ctrl+Shift+A |
 
 
