@@ -1,5 +1,5 @@
 # encoding=utf-8
-# Copyright 2023-2024 Bingo(LiBin). All Rights Reserved.
+# Copyright 2023-2024 BingoLee1. All Rights Reserved.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
