@@ -314,9 +314,10 @@ class UnFillRectangle(object):
 class GifRecorder(object):
     mode_info = {
         # 模式名: (转换的色彩格式，png压缩级别/jpeg的质量，帧率，时长限制)
-        'Normal': ('P', 0, 10, 600),
+        # 'Normal': ('P', 0, 10, 600),
         'High Quality': ('RGBA', 6, 5, 300),
-        'High Frame Rate': ('', 75, 25, 120)}
+        'High Frame Rate': ('', 75, 25, 120)
+    }
 
     def __init__(self, master):
         self.master = master
@@ -781,7 +782,7 @@ class ScreenShot(object):
         x, y = self.screen_width // 2, self.screen_height // 2
         text1 = self.canvas.create_text(x + 1, y + 1, text=text, font=(Style.font, 18, 'bold'), fill='Gray')
         text2 = self.canvas.create_text(x, y, text=text, font=(Style.font, 18, 'bold'), fill=Style.theme_color)
-        self.root.after(5000, hide)
+        self.root.after(3000, hide)
 
     def run(self):
         """
