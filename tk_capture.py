@@ -493,6 +493,7 @@ class ScreenShot(object):
         area_txt = f'{int(x_end) - int(x_start)}*{int(y_end) - int(y_start)}'
         if self.tool_window is not None:
             self.tool_window.geometry(f'{width}x{height}+{x}+{y}')
+            self.tool_window.attributes("-topmost", 1)
             self.tool_widgets[0][1].configure(text=area_txt)
             return
 
