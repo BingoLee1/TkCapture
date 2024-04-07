@@ -1,7 +1,6 @@
 # TkCapture
 TkCapture is a cross-platform and lightweight screenshot and screen recording tool developed based on Python tkinter.   
-It supports screenshot editing and GIF recording, allows you to copy screenshots to the system clipboard,   
-and provides an intuitive and user-friendly interface.
+It supports screenshot editing and GIF recording, and provides an intuitive and user-friendly interface.
 
 ## Add Keyboard Shortcuts
 
